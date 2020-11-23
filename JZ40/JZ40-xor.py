@@ -12,7 +12,6 @@ class Solution:
         flag=1
         while (xor&flag)==0:
             flag <<= 1
-        print(xor, flag)
         
         a1=0; a2=0
         for i in array:
