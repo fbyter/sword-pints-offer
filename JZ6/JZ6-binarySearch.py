@@ -17,7 +17,7 @@ class Solution:
                 middle = high
                 break
             else:
-                middle = low + (high-low)//2
+                middle = (high+low)//2
                 # middle大于low，[low,middle]是顺序增长，从[middle,high]查找
                 if(rotateArray[middle] >= rotateArray[low]):
                     low = middle
