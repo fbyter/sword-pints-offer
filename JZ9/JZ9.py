@@ -6,6 +6,5 @@ class Solution:
             return 0
         elif number==1:
             return 1
-        
         else:
-            return 2* self.jumpFloorII(number-1)
+            return 2*self.jumpFloorII(number-1)
